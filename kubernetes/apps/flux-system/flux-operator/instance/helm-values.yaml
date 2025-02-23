@@ -12,6 +12,6 @@ instance:
     - notification-controller
   sync:
     kind: GitRepository
-    url: "https://github.com/haraldkoch/talos-harbor.git.git"
+    url: "https://github.com/haraldkoch/talos-harbor.git"
     ref: "refs/heads/main"
     path: kubernetes/flux/cluster
